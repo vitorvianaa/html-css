@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: dimgray;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 2px 1px 14px rgba(0, 0, 0, 0.308);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            height: 10px;
+            margin-right: 30px;
+        }
+
+        nav > a:hover { 
+            text-decoration: underline;
+        }
+
+        main{
+             background-color: white;
+             margin: 10px;
+             padding: 10px;
+             border-radius: 10px 0px;
+        }
+
+        
+        
+        
+        footer {
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            color: aliceblue;
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="botoes">
+            <p>Esportes</p><p>Politica</p><p>Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione unde mollitia odio nihil tenetur aliquid eum, molestias suscipit id ipsam necessitatibus culpa repudiandae reprehenderit, maxime similique aut quidem. Nobis, reprehenderit!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vitor Viana</p>
+    </footer>
+
+
+</body>
+</html>
